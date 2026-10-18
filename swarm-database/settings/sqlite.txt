@@ -1,0 +1,2 @@
+SQLite is embedded in the benchmark (rusqlite 0.40, bundled). Every connection runs:
+PRAGMA journal_mode = WAL; PRAGMA synchronous = FULL; PRAGMA fullfsync = ON; PRAGMA checkpoint_fullfsync = ON;

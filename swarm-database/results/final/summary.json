@@ -1,0 +1,330 @@
+{
+ "h1": {
+  "foundationdb/coalesced": {
+   "1": {
+    "avg_batch": 1.0,
+    "ops_per_sec": 113.1,
+    "p50": 7.975,
+    "p99": 19.567,
+    "retries": null
+   },
+   "1000": {
+    "avg_batch": 649.6,
+    "ops_per_sec": 21695.3,
+    "p50": 41.183,
+    "p99": 183.935,
+    "retries": null
+   },
+   "16": {
+    "avg_batch": 8.1,
+    "ops_per_sec": 1024.7,
+    "p50": 14.239,
+    "p99": 44.255,
+    "retries": null
+   },
+   "256": {
+    "avg_batch": 143.6,
+    "ops_per_sec": 12723.1,
+    "p50": 19.071,
+    "p99": 53.951,
+    "retries": null
+   },
+   "64": {
+    "avg_batch": 33.3,
+    "ops_per_sec": 4310.1,
+    "p50": 14.295,
+    "p99": 33.791,
+    "retries": null
+   }
+  },
+  "foundationdb/naive": {
+   "1": {
+    "avg_batch": null,
+    "ops_per_sec": 143.3,
+    "p50": 6.127,
+    "p99": 22.575,
+    "retries": 0
+   },
+   "1000": {
+    "avg_batch": null,
+    "ops_per_sec": 185.7,
+    "p50": 7823.359,
+    "p99": 20840.447,
+    "retries": 39315
+   },
+   "16": {
+    "avg_batch": null,
+    "ops_per_sec": 86.9,
+    "p50": 10.599,
+    "p99": 4460.543,
+    "retries": 900
+   },
+   "256": {
+    "avg_batch": null,
+    "ops_per_sec": 102.1,
+    "p50": 1562.623,
+    "p99": 13139.967,
+    "retries": 9912
+   },
+   "64": {
+    "avg_batch": null,
+    "ops_per_sec": 68.5,
+    "p50": 76.351,
+    "p99": 10084.351,
+    "retries": 2977
+   }
+  },
+  "postgres/coalesced": {
+   "1": {
+    "avg_batch": 1.0,
+    "ops_per_sec": 171.2,
+    "p50": 5.315,
+    "p99": 12.575,
+    "retries": null
+   },
+   "1000": {
+    "avg_batch": 835.7,
+    "ops_per_sec": 81318.0,
+    "p50": 10.135,
+    "p99": 41.791,
+    "retries": null
+   },
+   "16": {
+    "avg_batch": 8.0,
+    "ops_per_sec": 1261.5,
+    "p50": 11.655,
+    "p99": 26.927,
+    "retries": null
+   },
+   "256": {
+    "avg_batch": 140.8,
+    "ops_per_sec": 20837.4,
+    "p50": 12.471,
+    "p99": 24.031,
+    "retries": null
+   },
+   "64": {
+    "avg_batch": 32.8,
+    "ops_per_sec": 5048.1,
+    "p50": 12.047,
+    "p99": 25.759,
+    "retries": null
+   }
+  },
+  "postgres/naive": {
+   "1": {
+    "avg_batch": null,
+    "ops_per_sec": 178.3,
+    "p50": 5.211,
+    "p99": 10.039,
+    "retries": 0
+   },
+   "16": {
+    "avg_batch": null,
+    "ops_per_sec": 182.8,
+    "p50": 29.551,
+    "p99": 671.231,
+    "retries": 0
+   },
+   "256": {
+    "avg_batch": null,
+    "ops_per_sec": 198.6,
+    "p50": 985.599,
+    "p99": 6430.719,
+    "retries": 0
+   },
+   "64": {
+    "avg_batch": null,
+    "ops_per_sec": 181.9,
+    "p50": 251.007,
+    "p99": 1599.487,
+    "retries": 0
+   }
+  },
+  "sqlite/coalesced": {
+   "1": {
+    "avg_batch": 1.0,
+    "ops_per_sec": 202.0,
+    "p50": 4.795,
+    "p99": 10.767,
+    "retries": null
+   },
+   "1000": {
+    "avg_batch": 702.1,
+    "ops_per_sec": 15867.5,
+    "p50": 65.855,
+    "p99": 143.999,
+    "retries": null
+   },
+   "16": {
+    "avg_batch": 8.9,
+    "ops_per_sec": 1236.4,
+    "p50": 11.023,
+    "p99": 42.879,
+    "retries": null
+   },
+   "256": {
+    "avg_batch": 150.7,
+    "ops_per_sec": 12326.2,
+    "p50": 16.335,
+    "p99": 55.327,
+    "retries": null
+   },
+   "64": {
+    "avg_batch": 35.3,
+    "ops_per_sec": 3612.5,
+    "p50": 12.367,
+    "p99": 87.935,
+    "retries": null
+   }
+  },
+  "sqlite/naive": {
+   "1": {
+    "avg_batch": null,
+    "ops_per_sec": 230.2,
+    "p50": 4.111,
+    "p99": 8.087,
+    "retries": 0
+   },
+   "1000": {
+    "avg_batch": null,
+    "ops_per_sec": 214.0,
+    "p50": 5722.111,
+    "p99": 18612.223,
+    "retries": 0
+   },
+   "16": {
+    "avg_batch": null,
+    "ops_per_sec": 226.2,
+    "p50": 4.051,
+    "p99": 1707.007,
+    "retries": 0
+   },
+   "256": {
+    "avg_batch": null,
+    "ops_per_sec": 208.3,
+    "p50": 4.943,
+    "p99": 12361.727,
+    "retries": 0
+   },
+   "64": {
+    "avg_batch": null,
+    "ops_per_sec": 222.0,
+    "p50": 4.175,
+    "p99": 10158.079,
+    "retries": 0
+   }
+  },
+  "yugabytedb/coalesced": {
+   "1": {
+    "avg_batch": 1.0,
+    "ops_per_sec": 447.7,
+    "p50": 2.191,
+    "p99": 3.317,
+    "retries": null
+   },
+   "1000": {
+    "avg_batch": 643.3,
+    "ops_per_sec": 29784.1,
+    "p50": 29.343,
+    "p99": 88.639,
+    "retries": null
+   },
+   "16": {
+    "avg_batch": 8.0,
+    "ops_per_sec": 3012.7,
+    "p50": 5.127,
+    "p99": 8.479,
+    "retries": null
+   },
+   "256": {
+    "avg_batch": 132.5,
+    "ops_per_sec": 22269.9,
+    "p50": 11.647,
+    "p99": 15.047,
+    "retries": null
+   },
+   "64": {
+    "avg_batch": 32.1,
+    "ops_per_sec": 10347.3,
+    "p50": 6.119,
+    "p99": 8.831,
+    "retries": null
+   }
+  },
+  "yugabytedb/naive": {
+   "1": {
+    "avg_batch": null,
+    "ops_per_sec": 437.7,
+    "p50": 1.859,
+    "p99": 7.351,
+    "retries": 0
+   },
+   "16": {
+    "avg_batch": null,
+    "ops_per_sec": 68.1,
+    "p50": 86.463,
+    "p99": 2668.543,
+    "retries": 6
+   },
+   "256": {
+    "avg_batch": null,
+    "ops_per_sec": 37.8,
+    "p50": 12681.215,
+    "p99": 18661.375,
+    "retries": 797
+   },
+   "64": {
+    "avg_batch": null,
+    "ops_per_sec": 67.5,
+    "p50": 10.055,
+    "p99": 9691.135,
+    "retries": 508
+   }
+  }
+ },
+ "h2": {
+  "foundationdb": {
+   "batch_p99_ms": 990.207,
+   "rows_per_sec": 29398.6
+  },
+  "postgres": {
+   "batch_p99_ms": 116.607,
+   "rows_per_sec": 247168.6
+  },
+  "sqlite": {
+   "batch_p99_ms": 4419.583,
+   "rows_per_sec": 26189.6
+  },
+  "yugabytedb": {
+   "batch_p99_ms": 283.135,
+   "rows_per_sec": 126897.3
+  }
+ },
+ "h3": {
+  "foundationdb": {
+   "misses": 0,
+   "p50_ms": 0.773,
+   "p99_ms": 3.307,
+   "reads_per_sec": 29954.0
+  },
+  "postgres": {
+   "misses": 0,
+   "p50_ms": 0.193,
+   "p99_ms": 0.407,
+   "reads_per_sec": 157564.0
+  },
+  "sqlite": {
+   "misses": 0,
+   "p50_ms": 0.173,
+   "p99_ms": 2.719,
+   "reads_per_sec": 90105.5
+  },
+  "yugabytedb": {
+   "misses": 0,
+   "p50_ms": 0.752,
+   "p99_ms": 7.371,
+   "reads_per_sec": 24416.7
+  }
+ }
+}

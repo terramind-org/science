@@ -5,6 +5,7 @@ Code, plans, result files and papers behind Terramind's research explainers. One
 | Project | Folder | Project page |
 |---|---|---|
 | The fly brain: what the wiring map predicts without a simulation | [`fly-brain/`](fly-brain/) | https://terramind.org/fly-brain/ |
+| Which database can keep up with a thousand agents on one branch | [`swarm-database/`](swarm-database/) | https://terramind.org/agent-scale-database/ |
 
 Everything here is our own analysis and is not peer-reviewed. Third-party data and code are used under their own licences, listed in each project's README.
 

@@ -1,0 +1,3 @@
+fsync: median 0.051 ms, p99 0.589 ms
+F_FULLFSYNC: median 4.624 ms, p99 11.920 ms
+Run 2026-10-18T00:19:54Z on the same machine (Apple M4 Pro, internal SSD), after the benchmark databases were stopped.

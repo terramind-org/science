@@ -1,0 +1,1 @@
+{"db":"postgres","latency_ms":{"max":34.175,"mean":4.3,"p50":4.057,"p90":4.995,"p99":7.975,"p999":13.935},"ops":2325,"ops_per_sec":232.5,"params":{"landers":1,"max_batch":1024,"mode":"naive"},"retries":0,"secs":10.0,"workload":"h1_hot_ref"}
