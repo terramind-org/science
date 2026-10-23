@@ -1,8 +1,8 @@
 # Which database can keep up with a thousand agents on one branch?
 
-Benchmarks behind the project page at https://terramind.org/agent-scale-database/.
+Benchmarks behind the project page at https://terramind.org/trellis/database/.
 
-We are designing **swarm**, open-source source control for AI agents, starting from the design
+We are designing **trellis**, open-source source control for AI agents, starting from the design
 Anthropic published in *Redesigning source control*
 (https://www.anthropic.com/engineering/redesigning-source-control). Before choosing where its
 metadata lives, we measured four candidate databases on the workloads that decide it. Everything

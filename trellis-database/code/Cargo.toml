@@ -1,10 +1,10 @@
 [package]
-name = "swarm-dbbench"
+name = "trellis-dbbench"
 version = "0.0.0"
 edition = "2024"
 license = "MIT"
 publish = false
-description = "Benchmarks candidate metadata databases on swarm's hot-ref, ingest and point-read workloads."
+description = "Benchmarks candidate metadata databases on trellis's hot-ref, ingest and point-read workloads."
 
 # Standalone: not part of the main workspace, so its database drivers never enter the product's build.
 [workspace]

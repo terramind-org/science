@@ -1,4 +1,4 @@
-//! swarm-dbbench: measures candidate metadata databases on swarm's three hottest workloads.
+//! trellis-dbbench: measures candidate metadata databases on trellis's three hottest workloads.
 //!
 //! - `h1`: landing on one hot ref. `naive` runs one transaction per land, the way a plain
 //!   implementation would; `coalesced` sends every land to one owner task that commits whatever is
@@ -122,7 +122,7 @@ impl Rng {
     }
 }
 
-/// The j-th new object id written by writer w: 34 bytes shaped like a swarm object id
+/// The j-th new object id written by writer w: 34 bytes shaped like a trellis object id
 /// (algorithm byte, kind byte, 32-byte digest).
 fn object_id(w: u64, j: u64) -> Vec<u8> {
     let mut r = Rng::new(w.wrapping_mul(1_000_003) ^ j.wrapping_mul(0x1000_0001));

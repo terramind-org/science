@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes the TypeScript table data used on https://terramind.org/agent-scale-database/ from
+"""Writes the TypeScript table data used on https://terramind.org/trellis/database/ from
 results/final/summary.json. Usage: python3 site_table.py ../results/final/summary.json > results.ts"""
 import json, sys
 
@@ -8,8 +8,8 @@ names = {"postgres": "Postgres", "yugabytedb": "YugabyteDB", "sqlite": "SQLite",
 order = ["postgres", "yugabytedb", "sqlite", "foundationdb"]
 levels = ["1", "16", "64", "256", "1000"]
 r = lambda x: round(x) if x >= 100 else round(x, 1)
-out = ["// Generated from github.com/terramind-org/science/blob/main/swarm-database/results/final/summary.json",
-       "// by swarm-database/code/site_table.py. Do not edit by hand.", "",
+out = ["// Generated from github.com/terramind-org/science/blob/main/trellis-database/results/final/summary.json",
+       "// by trellis-database/code/site_table.py. Do not edit by hand.", "",
        "export const LEVELS = [1, 16, 64, 256, 1000] as const;", "",
        "export type Cell = { perSec: number; p99Ms: number } | null;", "",
        "export const HOT_REF: { db: string; mode: 'one transaction per landing' | 'batched by one owner'; cells: Cell[] }[] = ["]

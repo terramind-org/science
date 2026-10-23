@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 : "${FDB_LIB:?set FDB_LIB to the directory holding libfdb_c.dylib}"
 export DYLD_LIBRARY_PATH="$FDB_LIB"
 RUSTFLAGS="-L native=$FDB_LIB" cargo build -q --release
-BIN=target/release/swarm-dbbench
+BIN=target/release/trellis-dbbench
 OUT="results/$(date -u +%Y%m%dT%H%M%SZ)${1:+-$1}"; mkdir -p "$OUT"
 url_for() {  # bash 3.2 (macOS) has no associative arrays
   case "$1" in
