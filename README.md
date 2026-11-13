@@ -4,8 +4,8 @@ Code, plans, result files and papers behind Terramind's research explainers. One
 
 | Project | Folder | Project page |
 |---|---|---|
-| The fly brain: what the wiring map predicts without a simulation | [`fly-brain/`](fly-brain/) | https://terramind.org/fly-brain/ |
-| Which database can keep up with a thousand agents on one branch | [`trellis-database/`](trellis-database/) | https://terramind.org/trellis/database/ |
+| The fly brain: what the wiring map predicts without a simulation | [`fly-brain/`](fly-brain/) | [terramind.org/fly-brain](https://terramind.org/fly-brain/?utm_source=github&utm_medium=readme&utm_campaign=science) |
+| Which database can keep up with a thousand agents on one branch | [`trellis-database/`](trellis-database/) | [terramind.org/trellis/database](https://terramind.org/trellis/database/?utm_source=github&utm_medium=readme&utm_campaign=science) |
 
 Everything here is our own analysis and is not peer-reviewed. Third-party data and code are used under their own licences, listed in each project's README.
 
